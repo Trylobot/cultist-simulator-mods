@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\Games\\Steam\\steamapps\\common\\Cultist Simulator\\cultistsimulator_Data\\StreamingAssets\\content\\core"
 		}
 	]
 }
