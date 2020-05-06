@@ -1,0 +1,9 @@
+{
+	"name": "Suppression Bureau Raid",
+	"author": "Trylobot",
+	"version": "0.0.1",
+
+	"description": "Adds difficulty to the game through a new mechanic; automatically activated.",
+
+	"dependencies": []
+}
