@@ -1,0 +1,26 @@
+{
+  "decks":[],
+  "elements":[],
+  "legacies":[],
+  "recipes":[{
+    id:"raid",
+    label:"Suppression Bureau Raid",
+    actionId:"raid",
+    slots: [{
+      id:"Headquarters",
+      label:"Scrying..",
+      required:{
+        hq:1
+      },
+      greedy:true
+    }],
+    startdescription:"The Suppression Bureau is attempting to scry my location!",
+    description: "The scrying failed.",
+    warmup: 10,
+    craftable: false,
+    linked:[
+    ]
+  }],
+  "verbs":[],
+  "endings":[]
+}

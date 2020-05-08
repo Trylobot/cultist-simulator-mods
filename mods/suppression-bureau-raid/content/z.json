@@ -1,0 +1,12 @@
+{
+  "decks":[],
+  "elements":[{
+    "id": "saliba_d",
+    "extends": ["saliba_d"],
+    "description": "Definitely not the best follower"
+  }],
+  "legacies":[],
+  "recipes":[],
+  "verbs":[],
+  "endings":[]
+}
