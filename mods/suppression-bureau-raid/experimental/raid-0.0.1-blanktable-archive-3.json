@@ -1,0 +1,26 @@
+{
+  "decks":[],
+  "elements":[],
+  "recipes":[{
+    id:"drawseason",
+    actionId:"time",
+    deckeffect:{"seasonevents":1},
+    warmup:0,
+    linked:[
+      {id:"raid",chance:5,additional:true},
+      {id:"needs",chance:100}
+    ]
+  },{
+    id:"raid",
+    label:"Suppression Bureau Raid",
+    actionId:"raid",
+    requirements: {},
+    slots: [
+      {id:"Headquarters",label:"Scrying..",required:{hq:1},greedy:true}
+    ],
+    startdescription:"The Suppression Bureau is attempting to scry my location!",
+    description: "The scrying failed.",
+    warmup: 10,
+    craftable: false
+  }]
+}

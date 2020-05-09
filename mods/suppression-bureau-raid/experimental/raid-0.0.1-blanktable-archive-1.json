@@ -1,0 +1,33 @@
+{
+  "decks":[{
+    id:"seasonevents",
+    extends:["seasonevents"],
+    "spec$append":["season_scrying"]
+  }],
+  "elements":[{
+    id:"season_scrying",
+    label:"A Season of Concerted Effort",
+    description:"In desperation, my enemies have called upon forbidden forces to discern my location despite my secrecy.",
+    aspects: {season:1},
+    lifetime:1
+  }],
+  "recipes":[{
+    id:"needs",
+    extends:["needs"],
+    "alternativerecipes$append":[
+      {id:"raid",chance:50,additional:true}
+    ]
+  },{
+    id:"raid",
+    label:"Suppression Bureau Raid",
+    actionId:"raid",
+    requirements: {season_scrying:1},
+    slots: [
+      {id:"Headquarters",label:"Scrying..",required:{hq:1},greedy:true}
+    ],
+    startdescription:"The Suppression Bureau is attempting to scry my location!",
+    description: "The scrying failed.",
+    warmup: 10,
+    craftable: false
+  }]
+}
