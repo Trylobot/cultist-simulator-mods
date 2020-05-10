@@ -32,13 +32,13 @@
     id:"raid",
     label:"Suppression Bureau Raid",
     actionId:"raid",
-    requirements:{},
-    slots:[
+    requirements: {},
+    slots: [
       {id:"Headquarters",label:"Scrying..",required:{hq:1},greedy:true}
     ],
     startdescription:"The Suppression Bureau is attempting to scry my location!",
-    description:"The scrying failed.",
-    warmup:10,
-    craftable:false
+    description: "The scrying failed.",
+    warmup: 10,
+    craftable: false
   }]
 }

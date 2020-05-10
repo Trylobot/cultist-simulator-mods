@@ -1,0 +1,22 @@
+{
+  "decks":[],
+  "elements":[],
+  "recipes":[{
+    id:"suspicion",
+    extends:["suspicion"],
+    "linked$prepend":[
+      {id:"raid",chance:100}
+    ]
+  },{
+    id:"raid",
+    label:"Suppression Bureau Raid",
+    actionId:"raid",
+    requirements:{},
+    slots:[
+      {id:"Headquarters",label:"Scrying..",required:{hq:1},greedy:true}
+    ],
+    startdescription:"The Suppression Bureau is attempting to scry the location of my headquarters!",
+    description:"The scrying failed.",
+    warmup:10
+  }]
+}
